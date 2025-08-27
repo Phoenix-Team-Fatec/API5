@@ -1,0 +1,30 @@
+name: CI
+
+# O workflow será executado a cada Pull Request
+on:
+  pull_request:
+    branches:
+      - main
+      - develop
+
+jobs:
+  build_and_test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18' # Ajustar a versão do Node conforme projeto
+
+      - name: Instalar dependências
+        run: npm install
+
+      - name: Rodar o Linter
+        run: npm run lint # Adaptar o comando conforme o projeto
+
+      - name: Rodar Testes
+        run: npm test # Adaptar o comando para o script de teste
