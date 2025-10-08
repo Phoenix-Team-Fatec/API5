@@ -36,13 +36,14 @@ Implementar as funcionalidades básicas do sistema, incluindo:
 #5|Após o login, caso o usuário feche o app sem clicar no botão de logout, ele deve permanecer automaticamente logado ao reabrir o aplicativo.| 🕓 |
 #6|Adicionar um botão no mapa que permita ao usuário registrar alterações nas vias. As alterações possíveis são: trânsito, acidente, veículo no acostamento e presença de polícia rodoviária. Para cada ocorrência, o usuário deve classificar a gravidade como leve, moderada ou intensa. Cada ocorrência será visível no mapa por um tempo determinado (leve: 30 minutos, moderada: 1 hora, intensa: 3 horas).|🕓  |
 |#7|Enquanto trafega, o usuário deve receber uma notificação no app caso haja alguma alteração na via dentro de 1 km. A notificação deve informar a distância até a alteração enquanto o usuário se aproxima. Ao chegar a 300 metros da ocorrência, um botão será exibido para confirmar se a ocorrência permanece. Caso haja confirmação, o tempo de permanência da ocorrência será estendido por mais 20 minutos. Se houver 3 negações, a ocorrência será removida.|  🕓|
-|#8|Permitir que o usuário veja as mudanças climáticas capturadas pela API em formato de área, além de visualizar as ocorrências registradas por outros usuários (essas só aparecem se estiverem na rota traçada do usuário).|  🕓|
-|#9|Exibir no mapa a localização do Plus Code em forma de alfinete. Ao clicar nele, o usuário verá informações sobre esse Plus Code e a propriedade relacionada.|  🕓|
-|#10|Deve ter um espaço para adicionar uma foto (no máximo 5MB).|  🕓|
-|#11|Usar a cor laranja para propriedades que ainda não têm um Plus Code associado e verde para aquelas que já têm.|  🕓|
-|#12|Ao clicar em "mais detalhes" da propriedade, deve ser exibido um log de alterações do Plus Code em formato de tabela, com 3 colunas: Apelido (nome dado ao Plus Code), Localização (coordenadas) e Data (data e horário da criação/alteração).|  🕓|
-|#13|Permitir buscar outras propriedades com base nos apelidos dados aos Plus Codes ou à chave do Plus Code.|  🕓|
-|#14|Na tabela de propriedades, adicionar um botão para traçar a rota para a propriedade automaticamente.|  🕓|
+|#8|Permitir que o usuário veja os registros de alterações nas vias de outros usuários dentro de sua área de visualização na tela. Caso o usuário de um zoom out de 25% não deve exibir nenhum dos alertas, afim de evitar poluição visual.|  🕓|
+|#9|Permitir que o usuário veja as mudanças climáticas capturadas pela API em formato de área, além de visualizar as ocorrências registradas por outros usuários (essas só aparecem se estiverem na rota traçada do usuário).|  🕓|
+|#10|Exibir no mapa a localização do Plus Code em forma de alfinete. Ao clicar nele, o usuário verá informações sobre esse Plus Code e a propriedade relacionada.|  🕓|
+|#11|Deve ter um espaço para adicionar uma foto (no máximo 5MB).|  🕓|
+|#12|Usar a cor laranja para propriedades que ainda não têm um Plus Code associado e verde para aquelas que já têm.|  🕓|
+|#13|Ao clicar em "mais detalhes" da propriedade, deve ser exibido um log de alterações do Plus Code em formato de tabela, com 4 colunas: Apelido (nome dado ao Plus Code), Localização (coordenadas) e Data de criação (data e horário da criação), Data da ultima alteração (data e horário de alteração).|  🕓|
+|#14|Permitir buscar outras propriedades com base nos apelidos dados aos Plus Codes ou à chave do Plus Code.|  🕓|
+|#15|Na tabela de propriedades, adicionar um botão para traçar a rota para a propriedade automaticamente.|  🕓|
 
 
 [⬅️ Voltar para o README principal](../../README.md)
